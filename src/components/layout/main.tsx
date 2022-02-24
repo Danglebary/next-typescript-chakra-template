@@ -6,7 +6,7 @@ interface Props {
     pageTitle: string
 }
 
-const Layout = ({ children, pageTitle }: Props) => {
+const Layout = ({ children }: Props) => {
     return (
         <Box as="main" pb={8}>
             <Head>
@@ -14,7 +14,6 @@ const Layout = ({ children, pageTitle }: Props) => {
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
-                <title>{pageTitle}</title>
             </Head>
             <Container maxW="container.xl" width="100%" py={4}>
                 {children}
