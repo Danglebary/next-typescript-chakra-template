@@ -1,13 +1,14 @@
 import { Heading } from '@chakra-ui/react'
-import Layout from '../components/layout/main'
+import Page from '../components/layout/page'
 
 const Home = () => {
     return (
-        <Layout pageTitle="Next-Typescript-Chakra: Home">
-            <Heading as="h2" textAlign="center">
-                Hello World
-            </Heading>
-        </Layout>
+        <Page
+            title="Next-Typescript-Chakra: Home"
+            description="Home page of application"
+        >
+            <Heading textAlign="center">Hello World</Heading>
+        </Page>
     )
 }
 
