@@ -1,7 +1,7 @@
 import { Heading } from '@chakra-ui/react'
 import Page from '../components/layout/page'
 
-const Home = () => {
+const NotFound = () => {
     return (
         <Page
             title="Next-Typescript-Chakra: 404"
@@ -12,4 +12,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default NotFound
